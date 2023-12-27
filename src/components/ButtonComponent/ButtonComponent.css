@@ -1,0 +1,9 @@
+
+.btn{
+    box-shadow: 0 0 2rem 0rem rgb(163, 159, 159);
+    padding: .5rem;
+    background-color: rgb(100, 100, 100);
+    color:white;
+    border-radius: 100vmax;
+    border:none;
+}
