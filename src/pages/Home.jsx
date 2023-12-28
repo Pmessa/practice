@@ -1,11 +1,24 @@
 import React from 'react'
-import ButtonComponent from '../components/ButtonComponent/ButtonComponent'
-import NavbarComponent from '../components/ButtonComponent/NavbarComponent/NavbarComponent'
+import './Home.css'
+
+
+import NavbarComponent from '../components/NavbarComponent/NavbarComponent'
+import ItemListContainer from '../components/ItemListContainer/ItemListContainer'
+
+
+
 
 const Home = () => {
+
+
     return (
         <div>
-         <NavbarComponent />
+            <nav>
+                <NavbarComponent />
+            </nav>
+
+            <ItemListContainer />
+
         </div>
     )
 }

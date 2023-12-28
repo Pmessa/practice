@@ -1,12 +1,12 @@
 import React from 'react'
 import "./ButtonComponent.css"
 
-const ButtonComponent = ( props ) => {
+const ButtonComponent = ( {className, label, onClickFunction} ) => {
 
-console.log(props)
+
 
   return (
-    <div className='btnContainer'><button className="btn boton" id="button" > {props.label} </button></div>
+    <div className='btnContainer'><button className={className} id="button" onClick={onClickFunction}> {label} </button></div>
   )
 }
 

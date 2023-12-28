@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.divContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+
+   
+}
+.contadorContainer{
+    padding: 1rem;
+    color:rgb(82, 82, 82);
+    border: solid 2px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #dbd5d5;
+    flex-direction: column;
+    max-width: 25rem;
+    border-radius: 10px;
+    box-shadow: 0 0 2rem 0rem rgb(163, 159, 159);
+    text-transform: uppercase;
+    font-family: 'Handlee', cursive;
+   
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:aliceblue;
+    border: 2px solid gray;
+    border-radius:10px;
+    background-color: #27acb6;
+    padding: 1.2rem;
+    box-shadow: 0 0 2rem 0rem rgba(107, 243, 255, 0.5);
+}
+
+
