@@ -1,0 +1,33 @@
+
+
+
+.itemListContainer{
+    width: 100%;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+
+.itemConteinerDiv{
+   
+    width: 80%;
+    padding: 2rem;
+    background-color: #e9dbdbb9;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+@media  screen and (max-width: 992px) {
+
+    .itemListContainer{
+        width: 100%;
+    }
+    
+}

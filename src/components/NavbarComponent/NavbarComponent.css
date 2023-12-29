@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.navContainer{
+    width: 100%;
+}
+.container-fluid{
+    background-color: #528fd4;
+}
+
+#title{
+        color: white;
+}
+#title-span{
+    font-family: 'Courgette', cursive;
+}
+#v-strong{
+
+    color:green;
+    font-weight: 500;
+    font-size: larger;
+    font-family: 'Courgette', cursive;
+    font-weight: 600;
+
+}

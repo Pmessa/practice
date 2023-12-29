@@ -1,13 +1,18 @@
 import React from 'react'
 import CountComponent from '../CountComponent/CountComponent'
+import './ItemlistContainer.css'
 CountComponent
 
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
   return (
-    <div>
-        ItemListContainer
+    <div className="itemConteinerDiv">
+
+      <div>
+          {greeting}
+      </div>
     </div>
-  )
+    )
+
 }
 
 export default ItemListContainer

@@ -1,6 +1,8 @@
 
 import "./App.css"
-import Home from "./pages/Home"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import MainLayout from "./layout/MainLayout";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -8,9 +10,9 @@ const App = () => {
 
 
   return (
-    <div>
-      <Home />
-    </div>
+    <MainLayout title ="Nuestros Productos">
+      <ItemListContainer greeting = 'Bienvenido a nuestra App Vegan!'/>
+    </MainLayout>
 
   )
 }
